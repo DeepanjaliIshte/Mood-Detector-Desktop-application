@@ -44,26 +44,10 @@
 
 <h3>Prerequisites</h3>
 <ul>
-  <li>Java 17+ (<code>java -version</code>)</li>
+  <li>Java 21+ (<code>java -version</code>)</li>
   <li>Maven 3.8+ (<code>mvn -v</code>)</li>
 </ul>
 
-<h3>Clone & Run</h3>
-
-<pre>
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
-mvn clean package
-java -jar target/mood-detector-1.0.0.jar
-</pre>
-
-<p>
-If you run from IDE:
-<ol>
-  <li>Open project as Maven project.</li>
-  <li>Run <code>com.mooddetector.Mood_Detecor.MoodDetectorApp</code> (main class).</li>
-</ol>
-</p>
 
 <!-- USAGE -->
 <h2 id="-usage--samples">🕹️ Usage & Samples</h2>
@@ -119,13 +103,6 @@ java -jar target/mood-detector-1.0.0.jar
   <li>Use tools like <code>launch4j</code> or <code>jpackage</code> to wrap the jar.</li>
   <li>Example (jpackage):</li>
 </ul>
-
-<pre>
-jpackage --input target ^
-         --name "MoodDetector" ^
-         --main-jar mood-detector-1.0.0.jar ^
-         --type exe
-</pre>
 
 <!-- CONTRIBUTING -->
 <h2>🤝 Contributing</h2>
